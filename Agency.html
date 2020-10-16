@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>tutorial 2</title>
+    <meta name="tutorial" content="this is about jquerytutorial">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+    #show {
+        height: 60px;
+        width: 250px;
+    }
+
+    #descp {
+        width: 150px;
+        height: 30px;
+        border: 1px solid black;
+        display: none;
+        margin-left: 10px;
+        background-color: tomato;
+        color: white;
+    }
+
+    .highlight {
+        color: white;
+        background-color: #bbaaff;
+        font-family: courier;
+    }
+
+    .sty {
+        border: 1px solid black;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    #to_filter1,
+    #to_filter2,
+    #to_filter3 {
+        display: inline-block;
+        position: relative;
+    }
+
+    ul li {
+        margin: 10px;
+        list-style-type: none;
+    }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form>
+            <input type="text" name="" id="txt_area" value="">
+        </form>
+        <div id="show">
+        </div>
+    </div>
+    <div>
+        <div>
+            <a href="#" id="link">Alink</a>
+        </div>
+        <div>
+            <p><img src="images/recipe2.jpg" id="image"></p>
+        </div>
+        <div id="descp">
+        </div>
+        <div>
+            <select id="selection">
+                <option>option1</option>
+                <option>option2</option>
+                <option>option3</option>
+                <option>option4</option>
+                <option>option5</option>
+                <option>option6</option>
+            </select>
+        </div>
+        <span id="new_select"></span>
+        <div id="to_bind">
+            <p>this text will show the effect of bind</p>
+        </div>
+        <input type="button" id="filtering" value="filter-this">
+        <div id="insert">
+        </div>
+        <div id="to_filter1"><img src="images/recipe1.jpg"></div>
+        <div>
+            <p class="textual">What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?</p>
+        </div>
+        <div id="to_filter2"><img src="images/recipe2.jpg"></div>
+        <div>
+            <p class="textual">What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?</p>
+        </div>
+        <div id="to_filter3"><img src="images/recipe3.jpg"></div>
+        <div>
+            <ul>
+                <li>tom</li>
+                <li>alex</li>
+                <li>raymond</li>
+                <li>paul</li>
+                <li>billy</li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/Jquery2.js"></script>
+</body>
+
+</html>
